@@ -7,7 +7,7 @@ import { UserContextProvider } from "./UserContext";
 // dotenv.config()
 function App() {
   React.useEffect(() => {
-    axios.defaults.baseURL = "http://localhost:4000";
+    axios.defaults.baseURL = "https://mern-chat-backend-one.vercel.app/";
     axios.defaults.withCredentials = true;
   }, []);
 
